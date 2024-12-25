@@ -1,6 +1,6 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-from keys import uri
+from samplekeys import uri
 
 client = MongoClient(uri, server_api=ServerApi('1'))
 
